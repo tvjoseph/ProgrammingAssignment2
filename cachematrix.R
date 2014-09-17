@@ -25,7 +25,7 @@ cacheSolve <- function(x, ...) {
        k <- x$getmatrix()
   
 if(!is.null(k) { 
-  message("getting cached data)  
+  message("getting cached data")  
   return(k)
   }
 
